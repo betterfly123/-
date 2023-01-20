@@ -1,0 +1,530 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.xuxingle_knowledge_graph#"
+     xml:base="http://www.xuxingle_knowledge_graph"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.xuxingle_knowledge_graph"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#种植 -->
+
+    <owl:ObjectProperty rdf:about="http://www.xuxingle_knowledge_graph#种植">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#成熟时间 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.xuxingle_knowledge_graph#成熟时间">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#花期 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.xuxingle_knowledge_graph#花期">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#中国 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#中国">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#产地"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#产地 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#产地"/>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#哈密瓜 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#哈密瓜">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#瓜果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#四川 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#四川">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#中国"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#安徽 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#安徽">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#中国"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#广东 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#广东">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#中国"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#广西 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#广西">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#中国"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#日本 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#日本">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#产地"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#柑橘 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#柑橘">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#柚子 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#柚子">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#柑橘"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#柠檬 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#柠檬">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#柑橘"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#核果 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#核果">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#桃子 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#桃子">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#核果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#桑葚 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#桑葚">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#浆果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#樱桃 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#樱桃">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#核果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#橘子 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#橘子">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#柑橘"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#橙子 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#橙子">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#柑橘"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#水果 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#水果"/>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#江西 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#江西">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#中国"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#泰国 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#泰国">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#产地"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#浆果 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#浆果">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#浙江 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#浙江">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#中国"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#瓜果 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#瓜果">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#福建 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#福建">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#中国"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#苹果 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#苹果">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#核果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#草莓 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#草莓">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#浆果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#西瓜 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#西瓜">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#瓜果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#重庆 -->
+
+    <owl:Class rdf:about="http://www.xuxingle_knowledge_graph#重庆">
+        <rdfs:subClassOf rdf:resource="http://www.xuxingle_knowledge_graph#中国"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#四会市 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#四会市">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#广东"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#沙糖桔"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#夔柚 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#夔柚">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#柚子"/>
+        <成熟时间>九月至十二月</成熟时间>
+        <花期>四月至五月</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#奉化区 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#奉化区">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#浙江"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#奉化水蜜桃"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#奉化水蜜桃 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#奉化水蜜桃">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#桃子"/>
+        <成熟时间>七月至八月</成熟时间>
+        <花期>三月</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#奉节县 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#奉节县">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#重庆"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#夔柚"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#安岳 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#安岳">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#四川"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#安岳柠檬"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#安岳柠檬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#安岳柠檬">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#柠檬"/>
+        <成熟时间>十月至十二月</成熟时间>
+        <花期>四月至五月</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#平和县 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#平和县">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#福建"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#琯溪蜜柚"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#文登大樱桃 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#文登大樱桃">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#樱桃"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#曼谷 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#曼谷">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#泰国"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#泰国柚"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#沙糖桔 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#沙糖桔">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#橘子"/>
+        <成熟时间>十月</成熟时间>
+        <花期>四月至五月</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#泰国柚 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#泰国柚">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#柚子"/>
+        <成熟时间>一月至二月</成熟时间>
+        <花期>三月至五月</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#爱媛38号 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#爱媛38号">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#橙子"/>
+        <成熟时间>十一月</成熟时间>
+        <花期>四月</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#爱媛县 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#爱媛县">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#日本"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#爱媛38号"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#琯溪蜜柚 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#琯溪蜜柚">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#柚子"/>
+        <成熟时间>十月至十二月</成熟时间>
+        <花期>四月</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#砀山县 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#砀山县">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#安徽"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#砀山黄桃"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#砀山黄桃 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#砀山黄桃">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#桃子"/>
+        <成熟时间>七月至九月</成熟时间>
+        <花期>四月上旬</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#罗城仫佬族自治县 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#罗城仫佬族自治县">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#广西"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#金玉柚"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#赣南脐橙 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#赣南脐橙">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#橙子"/>
+        <成熟时间>十月至十二月</成熟时间>
+        <花期>五月</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#赣州 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#赣州">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#江西"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#赣南脐橙"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#连南无核柠檬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#连南无核柠檬">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#柠檬"/>
+        <成熟时间>四季结果</成熟时间>
+        <花期>四季开花</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#连南瑶族自治县 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#连南瑶族自治县">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#广东"/>
+        <种植 rdf:resource="http://www.xuxingle_knowledge_graph#连南无核柠檬"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#金桔 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#金桔">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#橘子"/>
+        <成熟时间>十月至十二月</成熟时间>
+        <花期>三月至五月</花期>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.xuxingle_knowledge_graph#金玉柚 -->
+
+    <owl:NamedIndividual rdf:about="http://www.xuxingle_knowledge_graph#金玉柚">
+        <rdf:type rdf:resource="http://www.xuxingle_knowledge_graph#柚子"/>
+        <成熟时间>八月份</成熟时间>
+        <花期>四月至五月</花期>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
